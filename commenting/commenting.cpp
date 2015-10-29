@@ -12,7 +12,7 @@ int main(){
     
     //cout << "This is text"<<endl
 
-    cout << "This is another line of example text"<<endl;
+    cout << "This is another line of example text"<<endl; //adding comments inline is okay too
 
 
     /*
