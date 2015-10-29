@@ -25,12 +25,25 @@ int main(){
     b = 9;
 
     int c;
+    
+    cout << "a: " << a << " b: "<< b << endl;
 
-    c = a + b;
+    //operators +
 
-    cout << c << endl;
+    cout << "a +  b = "<< a + b << endl;
+
+    //operator -
+
+    cout << "a - b = "<< a - b << endl;
+
+    //operator * multiplication
 
 
+    cout << "a * b = "<< a * b << endl;
 
+    //operator / division
+    // notice for the division to work correctly, we must conver the integers into doubles.
+    cout << "a / b = "<< ((double) a) / ((double) b) << endl;
+    
     return 0;
 }
