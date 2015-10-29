@@ -12,4 +12,25 @@ int main(){
     cout << "Printing myInt: " << myInt << endl;
 
 
+    string myStr = "mystring";
+
+    cout << myStr << endl;
+    
+
+    //declaring two of the same type variables
+
+    int a, b;
+
+    a = 3;
+    b = 9;
+
+    int c;
+
+    c = a + b;
+
+    cout << c << endl;
+
+
+
+    return 0;
 }
